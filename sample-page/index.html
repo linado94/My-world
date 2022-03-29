@@ -3,6 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://www.google.com/recaptcha/api.js"></script>
+	<script>
+   function onSubmit(token) {
+     document.getElementById("demo-form").submit();
+   }
+ </script>
+	<button class="g-recaptcha" 
+        data-sitekey="6LdFhSUfAAAAAKYP0AtQiXqfp0QckCHDPf-J6Gkc" 
+        data-callback='onSubmit' 
+        data-action='submit'>Submit</button>
+	
 <style>.wp-container-6242d0886b524 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;align-items: center;}.wp-container-6242d0886b524 > * { margin: 0; }</style>
 <style>.wp-container-6242d0886c11b {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;align-items: center;justify-content: flex-end;}.wp-container-6242d0886c11b > * { margin: 0; }</style>
 <style>.wp-container-6242d0886c792 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;align-items: center;justify-content: space-between;}.wp-container-6242d0886c792 > * { margin: 0; }</style>
